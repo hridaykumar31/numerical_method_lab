@@ -15,7 +15,7 @@ double f3(double x,double y,double z)
 }
 int main()
 {
- double x0,y0,z0,x1,y1,z1,e,e1,e2,e3;
+ double x0=0,y0=0,z0=0,x1,y1,z1,e,e1,e2,e3;
  int step=0;
  cout<<"Enter the tolerence: "<<endl;
  cin>>e;
