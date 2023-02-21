@@ -13,7 +13,7 @@ int main()
   cin>>b;
   cout<<"Enter the number of subinterval:"<<endl;
   cin>>n;
-  h=(b-a)/h;
+  h=(b-a)/n;
   integration=f(a)+f(b);
   for(int i=1;i<=n-1;i++)
   {
@@ -21,7 +21,7 @@ int main()
       integration+=(2*f(k));
   }
 
-  cout<<integration<<endl;
+  cout<<(integration*h)/2<<endl;
 
 
 
